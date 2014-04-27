@@ -13,6 +13,7 @@
   }
   > footer > .content {
     padding: 2em 13em 0 13em;
+    text-align: center;
   }
 }
 
@@ -30,7 +31,7 @@
   left: 6em;
   top: 0;
   width: 4em;
-  height: 8em;
+  height: 4em;
   z-index: 32767;
   overflow: hidden;
   @include box-sizing(border-box);
@@ -38,14 +39,14 @@
   .logo {
     position: absolute;
     right: 1em;
-    top: 6em;
+    top: 2em;
   }
   .content {
     display: none;
     position: absolute;
     right: 1em;
-    top: 9em;
-    width: 10em;
+    top: 4em;
+    width: 12em;
   }
 }
 
@@ -53,8 +54,9 @@
 #sidebar:hover, #sidebar.open {
   position: fixed;
   left: 0;
-  width: 15em;
-  height: 100%;
+  width: 16em;
+  height: 100%;	
+  overflow:scroll;
   .hide {
     display: block;
   }
@@ -132,7 +134,7 @@ li.entry {
     height: 3em;
     width: 8em;
     .logo {
-      top: 1em;
+      top: 2em;
     }
     .content {
       left: 3em;
